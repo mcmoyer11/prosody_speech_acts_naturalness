@@ -3,16 +3,11 @@
 	width: 400;
 	margin: 10px;
 }
-.hidden { 
+.hidden {
     display: none; }
 
-.unhidden { 
+.unhidden {
     display: block; }
-
-.grid-container {
-    text-align: left; 
-    /* display: grid; */
-}
 
 .arcButton {
     background-color: white; /* Green */
@@ -39,17 +34,26 @@
     font-size: 17px;
     padding-top: 0.5cm;
     padding-bottom: 0.5cm;
-	 
+
 }
 .targetSen{
     color:#2E9AFE;
-    text-align:left;
-    font-size:20;
 }
+
 .notBoth{
     color: red;
     font-size:22;
 }
+
+.originalSen {
+	color: #E7532B;
+}
+
+.targetSen, .originalSen {
+	text-align:left;
+	font-size:20;
+}
+
 .row {
     padding-bottom: .5em;
 }
@@ -62,7 +66,7 @@
 .retryButton{
     font-color: black;
     padding: 1px 8px;
-  
+
 }
 .retryButton:hover{
     background-color: #f44336;
@@ -100,7 +104,7 @@ table.likertscale  {
   text-align: center;
   width: 90%;
   align-self: left;
-  margin-left:auto; 
+  margin-left:auto;
   margin-right:auto;
 }
 
@@ -116,3 +120,24 @@ td:nth-child(9) {
  width: 200px
 }
 
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+
+.legal {
+	font-size: 80%;
+	font-style: italic;
+}
+
+.slide {
+	border: 1px solid #666;
+}
